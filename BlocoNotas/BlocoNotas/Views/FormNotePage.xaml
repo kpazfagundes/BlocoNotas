@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlocoNotas.Views.FormNotePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Título"/>
+            <Entry Text=""
+                    x:Name="NoteTitle"/>
+            <Label Text="Descrição"/>
+            <Editor Text=""
+                    x:Name="NoteDescription"
+                    HeightRequest="400" />
+            <Button Text="Salvar" BackgroundColor="#6699ff"
+                   TextColor="White"
+                   x:Name="SaveButton"/>
+            <Label Text=""
+                   x:Name="TestOutput"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
